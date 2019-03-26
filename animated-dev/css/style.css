@@ -1,0 +1,317 @@
+
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-wrapper {
+  width: 100vw;
+  height: 75vh;
+  position: relative;
+}
+.hero { 
+  position: absolute;
+  width: 60vw;
+  height: 75vh;
+  background-color: lightgrey;
+}
+#bodymovin {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  /* background: white; */
+  text-shadow: 0;
+  /* background-color: #f8b2b9; */
+}
+.save-date {
+  position: absolute;
+  background-color: #c94ab1;
+  height: 37.5vh;
+  width: 40vw;
+  right: 0;
+}
+
+.tickets {
+  position: absolute;
+  background-color: black;
+  height: 37.5vh;
+  width: 40vw;
+  right: 0;
+  top: 50%;
+}
+
+.footer {
+  position: relative;
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(252,208,49);
+}
+
+.full-img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+  position: cover;
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  height: 60%;
+}
+
+.plus-sign {
+  position: absolute;
+  bottom: 12%;
+  left: 5%;
+  cursor: pointer;
+  height: 15%;
+}
+
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3vmax;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5vh;
+  left: 5%;
+  width: 60%;
+  line-height: 3vmax;
+}
+
+h1 {
+  font-family: "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+  font-size: 3vmax;
+  color: black;
+  text-transform: uppercase;
+  line-height: 3vmax;
+}
+
+.hero-text {
+  height: 100%;
+  position: absolute;
+  width: 70%;
+  top: 5%;
+  left: 5%;
+}
+
+ .black {
+   color: black !important;
+ }
+
+ .info {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 100%;
+
+}
+
+.info-2 {
+ position: absolute;
+ left: 5%;
+ top: 30%;
+ width: 100%;
+}
+
+.info-3 {
+ position: absolute;
+ left: 5%;
+ top: 7%;
+ width: 100%;
+}
+
+ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    left: 3.5%;
+    position: absolute;
+ }
+
+ li {
+   float: left;
+ }
+
+ li a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  font-size: 2.8vw;
+    font-size: 2vmin;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4vmin 6vmin 4vmin 0;
+    text-decoration: none;
+}
+
+li a:hover {
+  color: #fff;
+}
+
+.copyright {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;  font-size: 2.8vw;
+    font-size: 2vmin;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding: 4vmin 6vmin 4vmin 0;
+    text-decoration: none;
+}
+
+
+.header  ul {
+  position: absolute;
+    left: 90vw;
+    overflow: visible;
+    text-align: right;
+
+  }
+
+  .header  li a {
+    padding: 6vmin 2vmin 6vmin 0;
+    text-align: right;
+    font-size: 2.2vmin;
+    }
+
+    .header li a:hover {
+      color: #c94ab1;
+    }
+    .header .active {
+      color: #c94ab1;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+      html {
+        overflow: hidden;
+        -webkit-overflow-scrolling: auto;
+      }
+      body {
+        overflow: hidden;
+        -webkit-overflow-scrolling: auto;
+      }
+
+      .hero-wrapper {
+        height: 63vh;
+      }
+      .hero {
+        position: relative;
+        width: 100vw;
+        height: 33vh;
+      }
+      .save-date {
+        position: relative;
+        height: 15vh;
+        width: 100vw;
+      }
+
+      .tickets {
+        position: relative;
+        height: 15vh;
+        width: 100vw;
+        top:0vh;
+      }
+
+      .footer {
+        bottom: 0;
+        height: 24vh;
+      }
+      .header {
+        width: 100vw;
+        height: 13vh;
+        position: relative;
+      }
+
+      .info {
+       width: 60%;
+       }
+
+      .plus-sign {
+        bottom: 35%;
+        left: 85%;
+        height: 35%;
+      }
+
+      li a {
+         font-size: 1.5vmax;
+         padding: 8vmin 6vmin 4vmin 0;
+     }
+
+     .copyright {
+         font-size: 1.5vmax;
+         padding: 8vmin 6vmin 4vmin 0;
+     }
+     .header  ul {
+       left: 80%;
+     }
+    .header  li a {
+       font-size: 4vmin;
+       padding: 11vmin 2vmin 10vmin 0;
+    }
+    ul {
+        left: 5%;
+      }
+
+      .hero-text {
+        width: 90%;
+      }
+
+
+      h1 {
+      font-size: 23px;
+      line-height: 23px;
+      }
+      h2 {
+      font-size: 23px;
+      line-height: 23px;
+      }
+
+      .logo {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        height: 60%;
+      }
+
+  }
+
+  @media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  h2 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+h1 {
+  font-size: 17px;
+  line-height: 17px;
+}
+h2 {
+  font-size: 17px;
+  line-height: 17px;
+}
+}
